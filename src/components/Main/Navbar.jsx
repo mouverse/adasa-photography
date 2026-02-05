@@ -24,7 +24,7 @@ function Navbar() {
                 <div className="flex justify-between items-center h-20">
                     <Link className="flex items-center gap-3 group" to="/" data-discover="true">
                         <div className="relative w-12 h-12 rounded-xl overflow-hidden group-hover:scale-105 transition-all duration-300">
-                            <img alt="Photography Logo" className="w-full h-full object-cover" src="./src/assets/logo.png" />
+                            <img alt="Photography Logo" className="w-full h-full object-cover" src="/logo.png" />
                         </div>
                         <div className="flex flex-col">
                             <span className="text-xl font-bold bg-linear-to-r from-white to-neutral-300 bg-clip-text text-transparent">عدسة</span>
