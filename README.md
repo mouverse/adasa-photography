@@ -1,16 +1,50 @@
-# React + Vite
+# عدسة | منصة عربية للتصوير الفوتوغرافي
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+عدسة هي منصة عربية مخصّصة لعشّاق التصوير الفوتوغرافي، تجمع بين المعرفة، الإلهام، والتجربة العملية لمساعدة المصورين على تطوير أسلوبهم وبناء عين فنية واعية.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## لمحة عن الواجهة
 
-## React Compiler
+![لقطة شاشة للموقع](public/Landing.png)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+واجهة عدسة مصممة بأسلوب داكن أنيق مع لمسات برتقالية دافئة تعكس أجواء الإبداع، وتوفّر تجربة تصفح سلسة ومريحة سواء على الحاسوب أو الجوال.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ماذا يقدّم الموقع؟
+
+### الصفحة الرئيسية
+- تعريف سريع بهوية عدسة
+- إبراز المقالات المختارة
+- عرض أحدث المواضيع المنشورة
+
+### قسم المدونة
+- مقالات تعليمية وإلهامية مرتبة
+- إمكانية البحث والتصفية حسب التصنيفات:
+  - الإضاءة
+  - البورتريه
+  - المناظر الطبيعية
+  - التقنيات
+- عرض مقالات ذات صلة لكل موضوع
+
+### صفحة المقال
+- عرض تفصيلي ومنسّق للمحتوى
+- تقسيم المقال إلى أقسام واضحة
+- معلومات عن الكاتب
+- اقتراح مقالات مشابهة
+
+### من نحن
+- تعريف بفلسفة منصة عدسة
+- القيم والرؤية
+- فريق الكتّاب والمصورين
+
+### الصفحات القانونية
+- سياسة الخصوصية
+- شروط الخدمة  
+مكتوبة بالعربية بشكل واضح وشفاف
+
+### صفحة 404 مخصّصة
+- تصميم أنيق
+- توجيه المستخدم بسهولة للصفحات المهمة
+
