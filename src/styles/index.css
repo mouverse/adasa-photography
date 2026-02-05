@@ -1,5 +1,9 @@
 @import 'tailwindcss';
 
+html {
+    scroll-behavior: smooth;
+}
+
 .btn-primary {
     cursor: pointer;
     padding-inline: calc(var(--spacing, 0.25rem) * 8);

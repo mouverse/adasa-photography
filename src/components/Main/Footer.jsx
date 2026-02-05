@@ -1,5 +1,6 @@
 import { FaTwitter, FaGithub, FaLinkedin, FaYoutube, FaHeart } from 'react-icons/fa';
 import { HiChevronLeft } from 'react-icons/hi';
+import { Link } from 'react-router-dom';
 
 function Footer() {
     return (
@@ -9,12 +10,12 @@ function Footer() {
             <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
                     <div className="lg:col-span-1">
-                        <a className="flex items-center gap-3 mb-6 group" href="/" data-discover="true">
+                        <Link className="flex items-center gap-3 mb-6 group" to="/" data-discover="true">
                             <div className="w-11 h-11 bg-linear-to-br from-orange-500 to-orange-600 rounded-xl flex items-center justify-center group-hover:scale-105 transition-all duration-300" style={{ boxShadow: 'rgba(249, 115, 22, 0.3) 0px 4px 20px' }}>
                                 <span className="text-white font-bold text-xl">ع</span>
                             </div>
                             <span className="text-xl font-bold text-white">عدسة</span>
-                        </a>
+                        </Link>
                         <p className="text-sm text-neutral-500 mb-6 leading-relaxed">مدونة متخصصة في فن التصوير الفوتوغرافي، نشارك معكم أسرار المحترفين ونصائح عملية لتطوير مهاراتكم.</p>
                         <div className="flex gap-2">
                             <a href="https://twitter.com/adasah" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-[#161616] border border-[#262626] hover:bg-linear-to-br hover:from-orange-500 hover:to-orange-600 hover:border-transparent rounded-xl flex items-center justify-center text-neutral-500 hover:text-white transition-all duration-300 hover:scale-110" aria-label="twitter">
@@ -38,22 +39,22 @@ function Footer() {
                         </h3>
                         <ul className="space-y-4">
                             <li>
-                                <a className="text-sm text-neutral-500 hover:text-orange-500 transition-colors duration-300 flex items-center gap-2 group" href="/" data-discover="true">
+                                <Link className="text-sm text-neutral-500 hover:text-orange-500 transition-colors duration-300 flex items-center gap-2 group" to="/" data-discover="true">
                                     <HiChevronLeft className="w-4 h-4 opacity-0 -mr-4 group-hover:opacity-100 group-hover:mr-0 transition-all duration-300 text-orange-500 rotate-180" />
                                     الرئيسية
-                                </a>
+                                </Link>
                             </li>
                             <li>
-                                <a className="text-sm text-neutral-500 hover:text-orange-500 transition-colors duration-300 flex items-center gap-2 group" href="/blog" data-discover="true">
+                                <Link className="text-sm text-neutral-500 hover:text-orange-500 transition-colors duration-300 flex items-center gap-2 group" to="/blog" data-discover="true">
                                     <HiChevronLeft className="w-4 h-4 opacity-0 -mr-4 group-hover:opacity-100 group-hover:mr-0 transition-all duration-300 text-orange-500 rotate-180" />
                                     المدونة
-                                </a>
+                                </Link>
                             </li>
                             <li>
-                                <a className="text-sm text-neutral-500 hover:text-orange-500 transition-colors duration-300 flex items-center gap-2 group" href="/about" data-discover="true">
+                                <Link className="text-sm text-neutral-500 hover:text-orange-500 transition-colors duration-300 flex items-center gap-2 group" to="/about" data-discover="true">
                                     <HiChevronLeft className="w-4 h-4 opacity-0 -mr-4 group-hover:opacity-100 group-hover:mr-0 transition-all duration-300 text-orange-500 rotate-180" />
                                     من نحن
-                                </a>
+                                </Link>
                             </li>
                         </ul>
                     </div>
@@ -64,28 +65,28 @@ function Footer() {
                         </h3>
                         <ul className="space-y-4">
                             <li>
-                                <a className="text-sm text-neutral-500 hover:text-orange-500 transition-colors duration-300 flex items-center gap-2 group" href="/blog?category=إضاءة" data-discover="true">
+                                <Link className="text-sm text-neutral-500 hover:text-orange-500 transition-colors duration-300 flex items-center gap-2 group" to="/blog?category=إضاءة" data-discover="true">
                                     <HiChevronLeft className="w-4 h-4 opacity-0 -mr-4 group-hover:opacity-100 group-hover:mr-0 transition-all duration-300 text-orange-500 rotate-180" />
                                     إضاءة
-                                </a>
+                                </Link>
                             </li>
                             <li>
-                                <a className="text-sm text-neutral-500 hover:text-orange-500 transition-colors duration-300 flex items-center gap-2 group" href="/blog?category=بورتريه" data-discover="true">
+                                <Link className="text-sm text-neutral-500 hover:text-orange-500 transition-colors duration-300 flex items-center gap-2 group" to="/blog?category=بورتريه" data-discover="true">
                                     <HiChevronLeft className="w-4 h-4 opacity-0 -mr-4 group-hover:opacity-100 group-hover:mr-0 transition-all duration-300 text-orange-500 rotate-180" />
                                     بورتريه
-                                </a>
+                                </Link>
                             </li>
                             <li>
-                                <a className="text-sm text-neutral-500 hover:text-orange-500 transition-colors duration-300 flex items-center gap-2 group" href="/blog?category=مناظر طبيعية" data-discover="true">
+                                <Link className="text-sm text-neutral-500 hover:text-orange-500 transition-colors duration-300 flex items-center gap-2 group" to="/blog?category=مناظر طبيعية" data-discover="true">
                                     <HiChevronLeft className="w-4 h-4 opacity-0 -mr-4 group-hover:opacity-100 group-hover:mr-0 transition-all duration-300 text-orange-500 rotate-180" />
                                     مناظر طبيعية
-                                </a>
+                                </Link>
                             </li>
                             <li>
-                                <a className="text-sm text-neutral-500 hover:text-orange-500 transition-colors duration-300 flex items-center gap-2 group" href="/blog?category=تقنيات" data-discover="true">
+                                <Link className="text-sm text-neutral-500 hover:text-orange-500 transition-colors duration-300 flex items-center gap-2 group" to="/blog?category=تقنيات" data-discover="true">
                                     <HiChevronLeft className="w-4 h-4 opacity-0 -mr-4 group-hover:opacity-100 group-hover:mr-0 transition-all duration-300 text-orange-500 rotate-180" />
                                     تقنيات
-                                </a>
+                                </Link>
                             </li>
                         </ul>
                     </div>
@@ -115,8 +116,8 @@ function Footer() {
                             © 2026 عدسة. صنع بكل <FaHeart className="inline text-orange-500" /> جميع الحقوق محفوظة.
                         </p>
                         <div className="flex gap-6">
-                            <a className="text-sm text-neutral-600 hover:text-orange-500 transition-colors duration-300" href="/privacy" data-discover="true">سياسة الخصوصية</a>
-                            <a className="text-sm text-neutral-600 hover:text-orange-500 transition-colors duration-300" href="/terms" data-discover="true">شروط الخدمة</a>
+                            <Link className="text-sm text-neutral-600 hover:text-orange-500 transition-colors duration-300" to="/privacy" data-discover="true">سياسة الخصوصية</Link>
+                            <Link className="text-sm text-neutral-600 hover:text-orange-500 transition-colors duration-300" to="/terms" data-discover="true">شروط الخدمة</Link>
                         </div>
                     </div>
                 </div>
